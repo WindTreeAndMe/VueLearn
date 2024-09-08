@@ -1,0 +1,26 @@
+{
+  "name": "my-vue-head-leran",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "hushihui",
+    "email": "1535509134@qq.com"
+  },
+  "license": "MIT",
+  "description": "简单的vite +vue",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.3",
+    "pinia": "^2.2.2",
+    "vite": "^5.4.3",
+    "vue-router": "^4.4.3"
+  },
+  "dependencies": {
+    "vue": "^3.5.3"
+  }
+}

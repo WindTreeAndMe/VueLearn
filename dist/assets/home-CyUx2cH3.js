@@ -1,0 +1,1 @@
+import{d as o,c as r,t as s,u as n,o as c}from"./index-BoIf33jB.js";const u=o("counter",{state:()=>({count:0}),actions:{increment(){this.count++},decrement(){this.count--},reset(){this.count=0}}}),l={__name:"home",setup(i){const t=u();return(a,e)=>(c(),r("div",{onClick:e[0]||(e[0]=m=>n(t).increment())},"我是首页,目前计数为"+s(n(t).count),1))}};export{l as default};

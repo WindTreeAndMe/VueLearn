@@ -1,0 +1,1 @@
+<template>这里是foo.vue组件</template>
