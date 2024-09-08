@@ -12,6 +12,12 @@ const router = createRouter({
     path: '/about',
     component: () => import('../views/about.vue')
   }
+  ,
+  {
+    name: '占位符',
+    path: '/foo',
+    component: () => import('../views/home_foo.vue')
+  }
 
   
 ],

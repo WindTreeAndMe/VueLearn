@@ -1,0 +1,1 @@
+<template>这里是bar.vue组件</template>
