@@ -16,11 +16,15 @@ import useFoo from "../composables/useFoo";
 // 如果在target中指定该目录为自动导入，那么，也可以注释掉，但是需要注意的是
 // 该目录下的文件模块，必须要有默认导出，否则会报错 使用default导出
 // import  {useCounterStore}  from "../stores/counter"
-const counter = useCounterStore();
+// const counter = useCounterStore();
+
+// 而且，函数名称counterStores 与stores中的js文件名对应才行
+const counter = counterStores();
 
 // 如果使用 import { dirResolver, DirResolverHelper } from 'vite-auto-import-resolvers'
 // 那么可以不需要下面这行代码，因为它会自动导入所有自己文件模块（前提是在默认composables文件夹中或者target指定），但是vue可能会警告
 import Foo from "../components/Foo.vue";
+import counterStores from "../stores/counterStores";
 console.log(useFoo);
 
 </script>
